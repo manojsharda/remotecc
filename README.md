@@ -18,7 +18,7 @@ We should get the position "4,1"
 ### How to Build and Run the Project
 This project uses the [Maven](http://maven.apache.org/) build system, you can build the project locally just by typing the following in the console:
 ```
-./mvn package
+./mvn install
 ```
 The output of the Maven build is located in the  `target/` directory.
 
@@ -30,7 +30,7 @@ corresponding to this solution.
 
 To run the project, you can execute the generated jar by typing the following:
 ```
-./java -jar RC-Cars.jar
+./java -jar RemoteCCars.jar
 ```
 You will be asked to enter the Car initial position and the commands to be executed in the following format `X,Y:Commands`
 
